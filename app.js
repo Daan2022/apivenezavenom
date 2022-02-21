@@ -28,7 +28,9 @@ manager.addDocument('pt', 'Ola Boa tarde', 'saudacao');
 
 // ENDEREÇOS E HORARIOS
 manager.addDocument('pt', 'Boa tarde Endereço', 'localizacao');
+manager.addDocument('pt', 'Boa noite Endereço', 'localizacao');
 manager.addDocument('pt', 'Boa noite Horário', 'localizacao');
+manager.addDocument('pt', 'Boa tarde Horário', 'localizacao');
 manager.addDocument('pt', 'localizado', 'localizacao');
 
 
@@ -44,8 +46,8 @@ manager.addDocument('pt', 'obg', 'etiqueta');
 
 // RECLAMAÇÃO
 manager.addDocument('pt', 'Pedido errado', 'Reclamacao');
-manager.addDocument('pt', 'Pedido não veio', 'Reclamacao');
-manager.addDocument('pt', 'Pedido veio', 'Reclamacao');
+
+
 manager.addDocument('pt', 'Reclamação', 'Reclamacao');
 manager.addDocument('pt', 'Reclamações', 'Reclamacao');
 
@@ -55,14 +57,14 @@ manager.addDocument('pt', 'Reclamações', 'Reclamacao');
 
 
 // RESPOSTA DE SAUDAÇÃO
-manager.addAnswer('pt', 'saudacao', 'Bem-vindo ao Doce Amor. Este é o nosso autoatendimento!🤖\nPara fazer um pedido clique no link a baixo:\nhttp://tiny.cc/doceamor');
-manager.addAnswer('pt', 'saudacao', 'Olá quer fazer um pedido mais rápido? \nclique no link a baixo:\nhttp://tiny.cc/doceamor');
+manager.addAnswer('pt', 'saudacao', 'Bem-vindo ao Doce Amor. Este é o nosso autoatendimento!🤖\nPara fazer um pedido clique no link a baixo:\nhttps://superchickenmorrodoce.bubbleapps.io/version-test/delivery');
+manager.addAnswer('pt', 'saudacao', 'Olá quer fazer um pedido mais rápido? \nclique no link a baixo:\nhttps://superchickenmorrodoce.bubbleapps.io/version-test/delivery');
 
 
 
 
 // RESPOSTA DE LOCALIZÇÃO
-manager.addAnswer('pt', 'localizacao', '*Nossos horários de atendemento:*\nDe Segunda - Domingo\ndas 12:00 às 23:00\n*Endereço:*\nR. Dionísio Bellante, 269 - Jardim Santa Fe (Zona Oeste), São Paulo - SP, 05271-150, Brasil\n\n*Como chegar:*\n https://goo.gl/maps/h9zxE9tQmV9FaaCT6');
+manager.addAnswer('pt', 'localizacao', '*Nossos horários de atendemento:*\nDe Segunda - Sábado \ndas 18:00 às 23:00 e aos Domingos das 11:00 às 14:00 e das 19:00 às 22:50\n*Endereço:*\nRua Ricardo Dalton 224 Jd Santa fé\n\n*Como chegar:*\n https://goo.gl/maps/JoWeUU8WUNfCzKg56');
 
 
 // RESPOSTA DE ETIQUETAS
@@ -70,7 +72,7 @@ manager.addAnswer('pt', 'etiqueta', '😉');
 
 
 //RESPOSTA RECLAMAÇÃO
-manager.addAnswer('pt', 'Reclamacao', 'Oi nos desculpe pelo transtorno!😐\nNossa equipe vai te atende-lo.');
+manager.addAnswer('pt', 'Reclamacao', 'Oi nos desculpe pelo transtorno!😐\nNossa equipe irá atende-lo.');
 
 
 
