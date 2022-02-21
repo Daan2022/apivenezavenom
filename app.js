@@ -4,7 +4,7 @@ const venom = require('venom-bot');
 const express = require('express');
 const http = require('http');
 const app = express();
-const port = process.env.PORT || 3000; 
+const port = process.env.PORT || 8000; 
 const { body, validationResult } = require('express-validator');
 const server = http.createServer(app);
 
