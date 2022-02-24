@@ -57,14 +57,14 @@ manager.addDocument('pt', 'Reclamações', 'Reclamacao');
 
 
 // RESPOSTA DE SAUDAÇÃO
-manager.addAnswer('pt', 'saudacao', 'Bem-vindo ao Doce Amor. Este é o nosso autoatendimento!🤖\nPara fazer um pedido clique no link a baixo:\nhttps://superchickenmorrodoce.bubbleapps.io/version-test/delivery');
-manager.addAnswer('pt', 'saudacao', 'Olá quer fazer um pedido mais rápido? \nclique no link a baixo:\nhttps://superchickenmorrodoce.bubbleapps.io/version-test/delivery');
+manager.addAnswer('pt', 'saudacao', 'Bem-vindo ao Doce Amor. Este é o nosso autoatendimento!🤖\nPara fazer um pedido clique no link a baixo:\nhttps://pizzariavenezamorrodoce.bubbleapps.io/version-test/delivery');
+manager.addAnswer('pt', 'saudacao', 'Olá quer fazer um pedido mais rápido? \nclique no link a baixo:\nhttps://pizzariavenezamorrodoce.bubbleapps.io/version-test/delivery');
 
 
 
 
 // RESPOSTA DE LOCALIZÇÃO
-manager.addAnswer('pt', 'localizacao', '*Nossos horários de atendemento:*\nDe Segunda - Sábado \ndas 18:00 às 23:00 e aos Domingos das 11:00 às 14:00 e das 19:00 às 22:50\n*Endereço:*\nRua Ricardo Dalton 224 Jd Santa fé\n\n*Como chegar:*\n https://goo.gl/maps/JoWeUU8WUNfCzKg56');
+manager.addAnswer('pt', 'localizacao', '*Nossos horários de atendemento:*\nDe Segunda - Domingo \ndas 17:30 às 23:50 \n*Endereço:*\nRua Virgínia Castiglioni, 387 - Parque Anhangüera, São Paulo - SP, 05271-080, Brasil\n\n*Como chegar:*\n https://goo.gl/maps/VKrMHMyswGU3bu5v7');
 
 
 // RESPOSTA DE ETIQUETAS
